@@ -1,6 +1,6 @@
 context:
   name: warcio
-  version: 1.7.5
+  version: "1.8.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/warcio-${{ version }}.tar.gz
-  sha256: 7247b57e68074cfd9433cb6dc226f8567d6777052abec2d3c78346cffa4d19b9
+  sha256: f1f19ac2678b30309c62d310f286b5c3216bbc0542229b96fe89e1906dca4a6b
 
 build:
   number: 0
